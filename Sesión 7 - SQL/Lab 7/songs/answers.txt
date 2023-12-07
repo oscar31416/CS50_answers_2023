@@ -1,0 +1,48 @@
+#######################################################################
+# QUESTION 1 - If songs.db contains the top 100 songs of one listener #
+# from 2018, how would you characterize their audio aura?             #
+#######################################################################
+
+That listener seems to prefer songs with mid-high energy and
+danceability, and intermediate valence.
+
+################################################################################
+# QUESTION 2 - Hypothesize about why the way you’ve calculated this aura might #
+# not be very representative of the listener. What better ways of calculating  #
+# this aura would you propose?                                                 #
+################################################################################
+
+Possible problems found:
+
+1 - Songs from just one year?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    What if the person in question enjoys listening to Frank Sinatra, heavy
+    metal and pieces from the romantic period (~ 19th century) without having
+    a clear preference?
+
+2 - No apparent distinction between genres?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    That seems to involve assuming that the listener only likes one genre.
+
+3 - How are energy, danceability and valence defined???
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    Would a waltz be danceable by today's standards?
+    Would the third movement of Beethoven's "Moonlight" sonata be considered a
+    high-energy piece?
+
+
+Possible improvements:
+
+For problem 1 (Songs from just one year?)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    Instead of limiting the system to just one year, we could group the
+    listener's favourite songs (or pieces, or whatever their name is) by genre
+    and estimate an audio aura for each group.
+
+For problem 2 (No apparent distinction between genres?)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    (Same suggestion as for problem 1.)
+
+For problem 3 (How are energy, danceability and valence defined?)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    I'm afraid I can't suggest anything unless those parameters are defined.

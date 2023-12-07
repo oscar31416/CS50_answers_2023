@@ -1,0 +1,31 @@
+Times:
+
+10 simulations: 0m0.030s
+100 simulations: 0m0.035s
+1000 simulations: 0m0.043s
+10000 simulations: 0m0.129s
+100000 simulations: 0m0.988s
+1000000 simulations: 0m9.576s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?:
+
+Men's World Cup 2018 - It depends on what you pay attention to. None of the top 4 national
+teams in terms of predicted chance of winning the tournament participated in the actual
+tournament's semi-finals, so the prediction failed there. However, it did succeed when
+comparing each team's chance of winning the tournament to the rest: the French team (winner)
+has a greater chance than Croatia (runner-up), and Belgium defeated England for the third
+place.
+
+Women's World Cup 2019 - The United States' team, with the third highest chance of victory,
+defeated the Netherlands in the final match; meanwhile, the English team beat the Swedes
+for the bronze medal. Again, the prediction both failed (the Germans were expected to win the
+tournament but the Americans did) and succeeded (the American team had a 14.1% chance of
+winning the competition in comparison to the Netherlands' 5.7%, and the English team's 14.7%
+is noticeably greater than Sweden's 4.8%).
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?:
+
+After about 10000 simulations (execution time: 0.13 seconds), the results seem to stabilise.
