@@ -1,0 +1,64 @@
+/* Default text settings unless specified otherwise. */
+body {
+    font-family: ubuntu, segoe, sans-serif, times;
+    font-size: 1rem;
+    background-color: #e0eef9;
+}
+
+/* The 'lubuntu' string that is seen at the very beginning. */
+header {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #0070c8;
+    color: #ffffff;
+}
+
+/* Image that shows Lubuntu's default appearance. */
+#default_appearance {
+    max-width: 100%;
+    alt: (Default appearance of Lubuntu);
+}
+
+#customised_appearance {
+    max-width: 100%;
+    alt: (Lubuntu desktop but customised);
+}
+
+/* Lubuntu's logo but slightly modified. Part of the header. */
+#lubuntu_logo {
+    max-height: 6rem;
+    alt: (Lubuntu logo but slightly modified);
+}
+
+/* Main text settings. */
+.main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Links to the other pages. */
+.pages {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: #c0dcf2;
+}
+
+/* Header of the page. */
+h1 {
+    font-size: 1.6rem;
+}
+
+/* Header of each accordion item. */
+h2 {
+    font-size: 1.4rem;
+}
+
+/* Minor titles. */
+h3 {
+    font-size: 1.2rem;
+}

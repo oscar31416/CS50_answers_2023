@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <script>
+                    function check_question_1()
+                    {
+                        // This is a reference to the only button whose ID is "right".
+                        let correct_answer = document.querySelector('#right');
+                        // This returns a list of all buttons whose ID is "wrong".
+                        let wrong_answers = document.querySelectorAll('#wrong');
+
+                        // If the correct answer is clicked, the following function defines what will happen.
+                        correct_answer.onmouseup = function() {
+                            correct_answer.style.backgroundColor = "#00ff00";
+                            document.querySelector('#Result1').innerHTML = "Correct!";
+                        };
+
+                        // If the user clicks on a wrong answer, this is what will happen.
+                        for(let i = 0; i < wrong_answers.length; i++)
+                        {
+                            wrong_answers[i].onmouseup = function() {
+                                wrong_answers[i].style.backgroundColor = "#ff0000";
+                                document.querySelector('#Result1').innerHTML = "Incorrect";
+                            };
+                        }
+                    }
+                </script>
+
+                <h2>Part 1 - Multiple choice </h2>
+                <hr>
+                <!-- DONE - Add multiple choice question here -->
+                <h3>In 2021, a volcanic eruption took place in the Canary Islands.<br>
+                The question is: on which island?</h3>
+                <p id="Result1"></p>
+                <button onmouseup="check_question_1(); return false;" type="submit" id="wrong" name="button1" value="Tenerife">Tenerife</button>
+                <button onmouseup="check_question_1(); return false;" type="submit" id="wrong" name="button2" value="La Gomera">La Gomera</button>
+                <button onmouseup="check_question_1(); return false;" type="submit" id="wrong" name="button3" value="El Hierro">El Hierro</button>
+                <button onmouseup="check_question_1(); return false;" type="submit" id="wrong" name="button4" value="Gran Canaria">Gran Canaria</button>
+                <button onmouseup="check_question_1(); return false;" type="submit" id="right" name="button5" value="La Palma">La Palma</button>
+                <button onmouseup="check_question_1(); return false;" type="submit" id="wrong" name="button6" value="Lanzarote">Lanzarote</button>
+                <button onmouseup="check_question_1(); return false;" type="submit" id="wrong" name="button7" value="Fuerteventura">Fuerteventura</button>
+
+
+            </div>
+
+            <div class="section">
+                <script>
+                    function check_question_2()
+                    {
+                        <!-- The answer to question 2 is fetched here. -->
+                        let answer2 = document.querySelector('#entry').value;
+                        let correct_answer_2 = "LEBL";
+
+                        if (answer2 == correct_answer_2)
+                        {
+                            document.querySelector('#entry').style.backgroundColor = "#00ff00";
+                            document.querySelector('#Result2').innerHTML = "Correct!";
+                        }
+                        else
+                        {
+                            document.querySelector('#entry').style.backgroundColor = "#ff0000";
+                            document.querySelector('#Result2').innerHTML = "Incorrect";
+                        }
+                    }
+                </script>
+
+                <h2>Part 2 - Free response</h2>
+                <hr>
+                <!-- DONE - Add free response question here -->
+                <h3>What is the ICAO code of the international airport called<br>
+                'Josep Tarradellas Barcelona-El Prat'?</h3>
+                <input type="text" id="entry" name="entry_box" placeholder="(Case-sensitive)" autocomplete="off"/>
+                <button onmouseup="check_question_2(); return false;" type="submit" id="check_button">Check answer</button>
+                <p id="Result2"></p>
+            </div>
+        </div>
+    </body>
+</html>

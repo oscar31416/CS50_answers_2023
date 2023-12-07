@@ -1,0 +1,2 @@
+.open finance.db
+.schema

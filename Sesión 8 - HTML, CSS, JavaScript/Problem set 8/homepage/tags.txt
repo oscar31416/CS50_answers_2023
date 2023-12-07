@@ -1,0 +1,24 @@
+Included tags:
+ X html
+ X head
+ X body
+ X title
+01 link(index.html, why_lubuntu.html, success_stories.html, useful_links.html)
+02 script(index.html, why_lubuntu.html, success_stories.html, useful_links.html)
+03 header(index.html, why_lubuntu.html, success_stories.html, useful_links.html)
+04 div(index.html, why_lubuntu.html, success_stories.html, useful_links.html)
+05 p(index.html, why_lubuntu.html, success_stories.html, useful_links.html)
+06 h1(index.html, why_lubuntu.html, success_stories.html, useful_links.html)
+07 h2(index.html, why_lubuntu.html, success_stories.html)
+08 hr(index.html, why_lubuntu.html, success_stories.html, useful_links.html)
+09 ul(index.html, why_lubuntu.html, useful_links.html)
+10 li(index.html, why_lubuntu.html, useful_links.html)
+11 br(index.html, why_lubuntu.html, success_stories.html)
+12 b(index.html, why_lubuntu.html, success_stories.html)
+13 h3(success_stories.html)
+14 a(useful_links.html)
+
+Included CSS properties:
+01 font-family(styles_index.css/body)
+02 font-size(styles_index.css/header)
+03 text-align(styles_index.css/header)

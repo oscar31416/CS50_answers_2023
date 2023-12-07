@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Useful links | An unofficial and informal introduction to Lubuntu</title>
+    </head>
+    <body>
+        <header>
+            lubuntu <img id="lubuntu_logo" src="lubuntu_logo_proposal.png" alt="Lubuntu logo">
+        </header>  
+        <div class="pages">
+            <p><a href="index.html">What is Lubuntu?</a></p>
+            <p><a href="why_lubuntu.html">Why Lubuntu?</a></p>
+            <p><a href="success_stories.html">Success stories</a></p>
+            <p><a href="useful_links.html">Useful links</a></p>
+        </div>
+        <div class="main">
+            <hr>
+            <h1>Useful links</h1>
+            <hr>
+            <p>I'd like to share a few links that you may find potentially useful before, during and/or after the installation process.</p>
+            <script>
+                // Ask about moving to Lubuntu's official website.
+                function move_to_low()
+                {
+                    let intention = confirm("Are you sure you want to visit Lubuntu's official website?");
+                    if (intention == true)
+                    {
+                        window.location = "https://lubuntu.me/";
+                    }
+                }
+                // Ask about moving to Lubuntu's official forum.
+                function move_to_lof()
+                {
+                    let intention = confirm("Are you sure you want to visit Lubuntu's official forum?");
+                    if (intention == true)
+                    {
+                        window.location = "https://discourse.lubuntu.me/";
+                    }
+                }
+                // Ask about moving to Ubuntu's official website.
+                function move_to_uow()
+                {
+                    let intention = confirm("Are you sure you want to visit Ubuntu's official website?");
+                    if (intention == true)
+                    {
+                        window.location = "https://ubuntu.com/";
+                    }
+                }
+                // Ask about moving to Ask Ubuntu.
+                function move_to_au()
+                {
+                    let intention = confirm("Are you sure you want to visit Ask Ubuntu?");
+                    if (intention == true)
+                    {
+                        window.location = "https://askubuntu.com/";
+                    }
+                }
+                // Ask about moving to Debian's official website.
+                function move_to_dow()
+                {
+                    let intention = confirm("Are you sure you want to visit Debian's official website?");
+                    if (intention == true)
+                    {
+                        window.location = "https://www.debian.org/";
+                    }
+                }
+                // Ask about moving to Stack Overflow.
+                function move_to_so()
+                {
+                    let intention = confirm("Are you sure you want to visit Stack Overflow?");
+                    if (intention == true)
+                    {
+                        window.location = "https://stackoverflow.com/";
+                    }
+                }
+                // Ask about moving to Stack Exchange.
+                function move_to_se()
+                {
+                    let intention = confirm("Are you sure you want to visit Stack Exchange?");
+                    if (intention == true)
+                    {
+                        window.location = "https://stackexchange.com/";
+                    }
+                }
+            </script>
+            <ul>
+                <li><u><a onmouseup="move_to_low();">Lubuntu's official website</a></u>
+                <li><u><a onmouseup="move_to_lof();">Lubuntu's official forum</a></u>
+                <li><u><a onmouseup="move_to_uow();">Ubuntu's official website</a></u>
+                <li><u><a onmouseup="move_to_au();">Ubuntu's unofficial forum</a></u>
+                <li><u><a onmouseup="mode_to_dow();">Debian's official website</a></u>
+                <li><u><a onmouseup="move_to_so();">Stack Overflow</a></u>
+                <li><u><a onmouseup="move_to_se();">Stack Exchange</a></u>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,167 @@
+TOPIC - Lubuntu
+
+> REQUIRED NUMBER OF PAGES: 4 (one of them must be 'index.html').
+> REQUIRED NUMBER OF DIFFERENT TAGS: 10 apart from <html>, <head>, <body> and <title>.
+> REQUIRED INTEGRATION OF, AT LEAST, ONE FEATURE FROM 'BOOTSTRAP'.
+> REQUIRED A 'CSS':
+--> AT LEAST, FIVE DIFFERENT SELECTORS (for example, tags, classes or IDs).
+--> WITHIN THE SELECTORS, AT LEAST FIVE DIFFERENT PROPERTIES (for example, 'font-size' or 'margin').
+> INTEGRATE JAVASCRIPT TO MAKE THE PAGE MORE INTERACTIVE
+  (for example, add alerts, display an effect at a certain interval,
+  or add interactivity to buttons, dropdowns or forms).
+> MAKE SURE THE SITE LOOKS WELL ON ANY KIND OF DEVICE: computers, tablets, phones...
+
+########################
+# 1 - What is Lubuntu? #
+########################
+
+> Brief description.
+--> Lubuntu is an operating system which is derived from Ubuntu, a well-known Linux distribution
+    which is derived from Debian, another 'distro' that is not so well known.
+
+> Visual aspect.
+--> A Linux distribution needs a "desktop environment" and a "window manager"
+    if you want to see something else apart from the terminal. Lubuntu includes
+    the "LXQt" desktop environment and the "Openbox" window manager. This
+    combination makes Lubuntu not as resource-hungry as other modern operating
+    systems while being highly responsive on not-so-powerful computers.
+
+> What does it come with?
+--> Lubuntu includes the basic equipment to start working right after its installation:
+----> A web browser (Mozilla Firefox).
+----> A free alternative to Microsoft Office (LibreOffice).
+----> An audio and video player (VLC).
+----> GUI and terminal-based text file editors (FeatherPad, Vim, Nano).
+----> A PDF file viewer (qpdfview).
+----> A Python 3.10 (as of October 2023) interpreter, and compilers for C, C++ and Fortran.
+----> Etc.
+--> If you need something else, the Muon package package manager lets you download thousands of programmes FOR FREE.
+
+> What's its current version?
+--> The Lubuntu team releases two types of versions:
+----> Interim releases, once every ~6 months.
+------> The current one, as of October 2023, is 23.10 "Mantic Minotaur".
+----> Long-term-support (LTS) releases, published once every 2 years and supported for 36 months.
+------> The current LTS version, available since April 2022, is 22.04 "Jammy Jellyfish".
+
+####################
+# 2 - Why Lubuntu? #
+####################
+
+> Why get it?
+--> Based on Ubuntu.
+----> (Almost?) Any programme or package that works on Ubuntu will work on Lubuntu.
+--> Light (for today's standards).
+----> Other well-known operating systems come with bloatware. And it *can* be hard to get rid of it.
+----> Older computers with less RAM and slower CPUs can be given a second life.
+--> Easy to use right from the start.
+----> When adapting to a new OS, it's good to have a simple, clean and tidy environment.
+----> Within a few days, you may feel at home.
+--> Highly customisable.
+----> Don't like the colour of your windows' edges?
+      Want to move the taskbar to the left, move the clock to the top,
+      make it show the temperature of the CPU? Just make the changes you'd like!
+      You might need to find the right files and understand their language,
+      but you can do it!
+----> However, this is like a double-edged blade: it's as easy to correctly
+      perform the changes as to turn your computer into a mess!
+--> Up to date.
+----> Updates are available every week, and they don't slow down your computer.
+--> IT'S FREE!
+----> Why pay for an OS that will soon become obsolete when you can have open-source alternatives
+      that can keep your computer working and up-to-date for a lot longer?
+
+> What to watch out for?
+--> Not as well known as other operating systems. 
+    If you need to fix something...
+----> You'll possibly need to take a look at forums like Stack Overflow, Ask Ubuntu, or Lubuntu's official forum.
+      Unfortunately for some users, most of the information is in English.
+----> Most of the time you'll see yourself using the terminal, and - like on any operating system - it's easy to
+      mess up if you don't know what you're actually doing.
+      However, don't worry: it's just a matter of documentation and a bit of practice.
+--> Not designed for smartphones.
+----> You may want to look at other options such as Mobian.
+--> No support for 32-bit computers.
+----> The Lubuntu team decided to interrupt the support for them a few years ago.
+----> However, they can be resuscitated with Debian.
+--> Some might find its appearance a bit too simple and miss the decorations of their former OS.
+----> Lubuntu is meant to be light, and those little effects here and there might contradict its design principles.
+----> If visual appearance is important to you, ...
+------> You can change the desktop environment and the window manager, or ...
+------> You can try a different 'distro'. There are so many...!
+
+#######################
+# 3 - Success stories #
+#######################
+
+> I'd like to share a few stories about computers whose operating system was replaced with Lubuntu.
+  I swear the stories are not faked as I was the one who brought Lubuntu to the computers in the following stories.
+
+> STORY 1 - The beginning of a love story.
+--> Manufacturer: HP
+--> CPU: Intel Core i7-5500 @ 2.4GHz (declared; actual top speed is 2.95 GHz)
+--> RAM: 6GB
+--> Storage: 1TB HDD
+--> Former OS: Microsoft Windows 8.1
+
+--> It all started in 2022: after seven years and close to 8.1's end of life, my laptop started to become abnormally
+    slow as it was taking too long (up to 10 minutes!) to start and display the desktop, and even longer to shut down.
+    The battery would take just two hours to discharge instead of 3.5h as before; the anti-virus programme was
+    constantly working, always looking for updates even when the Wi-Fi connection was disabled, so one of my CPU's
+    cores was always at full power.
+--> Tired of these issues, I started to look for Linux distributions; however, not *any* distro, but lightweight
+    ones that would keep resource usage at a minimum while having a clean and highly customisable desktop environment.
+    After some time, I discovered Lubuntu, and decided to give it a go with live sessions: this is done by using a
+    thumb drive as a startup CD and booting the computer from it. "This looks GREAT", I thought. "Feels light,
+    no rubbish filling up the laptop's RAM, incredibly responsive even in a live session... I want this in my
+    computer!" And decided to shrink the Windows partition to dedicate 300GB to Lubuntu.
+--> It was a bit confusing at first because Broadcom's BCM43142 Wi-Fi card was not supported, but the solution was
+    as easy as connecting the laptop to the Internet via an Ethernet cable, opening the Muon package manager and
+    install the 'bcmwl-kernel-source' package. Nevertheless, after this small problem, no errors happened since then.
+    I'm considering saying goodbye to Windows. Forever.
+
+> STORY 2 - A new era.
+--> Manufacturer: AsRock
+--> CPU: AMD (GET THE MODEL) @ 4000MHz
+--> RAM: 8GB
+--> Storage: Two HDDs with more than 320GB each one
+--> Former OS: Microsoft Windows 8
+
+--> My father uses his desktop to watch films on the Internet and listen to music, but Windows 8 had reached its end
+    of life some months before he had decided to ask me to help him install Windows 11. Unfortunately, its hardware
+    requirements were (and are) excessive, so I suggested switching to a Linux distribution.
+--> This was a risky move since my family has stuck to Windows since the day my father had bought his first computer,
+    but the change was required so as to avoid having an outdated and vulnerable device. So I took my thumb drive,
+    created a USB boot device, plugged it to my dad's PC and completely replaced Windows 8 with Lubuntu.
+--> Then we installed the same platform he had on Windows together with the required add-ons and managed to make the
+    programme work after a few attempts. A few months have passed and, apart from one or two strange situations,
+    it's all going just fine.
+
+> STORY 3 - Resurrection.
+--> Manufacturer: Acer
+--> CPU: Intel Core 2 Duo @ 2.26GHz
+--> RAM: 4GB
+--> Storage: ~250GB HDD
+--> Former OS: Microsoft Windows Vista first, Microsoft Windows 10 later
+
+--> The Acer laptop in question was bought in ~2010 and it had had Windows 10 for a few years... But it had become
+    horribly slow and it was on the brink of failure: that OS was just too demanding for such an old device. It needed
+    something lighter and up-to-date, so the only option was a Linux distro.
+--> Since this was the third OS switch I was about to perform, I felt more comfortable than in previous situations.
+    Before booting from the thumb drive, my dad and I were already used to the Acer laptop's slowness, but the change
+    was, to put it simple, outstanding: even in a live session, it felt like it was completely new. I didn't think
+    twice before proceeding with the installation, which - by the way - didn't require a connection via Ethernet as
+    the laptop's Wi-Fi device is supported by the new OS.
+--> Now it behaves flawlessly in every aspect: quick reactions to any key being pressed, no freezes while surfing the
+    Internet, impressive performance when executing terminal commands... Except for the battery, who would guess that
+    the computer is 12 years old!
+
+####################
+# 4 - Useful links #
+####################
+
+> Lubuntu's official website: https://lubuntu.me/
+> Lubuntu's official forum: https://discourse.lubuntu.me/
+> Ubuntu's official website: https://ubuntu.com/
+> Ubuntu's unofficial forum: https://askubuntu.com
+> Debian's official website: https://www.debian.org/

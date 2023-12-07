@@ -1,0 +1,2 @@
+.open birthdays.db
+.schema
