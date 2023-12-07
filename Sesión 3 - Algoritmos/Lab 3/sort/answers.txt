@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: after testing all three executables with 'reversed50000.txt' and 'sorted50000.txt'. 'sort1' is quite slow when tested with 'reversed50000.txt' but becomes pretty fast if it has to work with sorted data.
+
+sort2 uses: merge sort
+
+How do you know?: after testing all three executables with 'random50000.txt', 'reversed50000.txt' and 'sorted50000.txt'. 'sort2' has always taken about half a second to finish regardless of the input file.
+
+sort3 uses: selection sort
+
+How do you know?: by testing all three executables with 'sorted50000.txt', because 'sort3' took the longest to finish (over 7 times longer than the other two algorithms). The numbers are already sorted, but this executable doesn't seem to care about that.
